@@ -100,6 +100,9 @@
 
 #define HEADER(n, x) IF(Not(Defined(n))) DEFINE(n,) {x} ENDIF
 
+
+
+
 /* 有 #define TOOLS_prefix "..." */
 #define DEFINE_WITH_COUNT_2(ida,ider) \
 	DEFINE_FUNCTION(ida,X("..."),Call1(X(TOOLS_prefix"expand"), \
